@@ -26,7 +26,7 @@ void setup() {
   };
 
   // Define hardware pins
-  i2s_pin_config_t my_pin_config = {
+  static const i2s_pin_config_t my_pin_config = {
       .bck_io_num = 26,
       .ws_io_num = 25,
       .data_out_num = 19,
